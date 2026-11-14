@@ -1,0 +1,27 @@
+# Virtual environment
+sam312/
+
+images/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (too large for GitHub; download from Kaggle)
+data/isot/
+data/processed/
+data/*.csv
+
+# Trained models (large files; regenerate by running the notebooks)
+models/
+*.pkl
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
